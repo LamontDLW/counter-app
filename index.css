@@ -1,0 +1,39 @@
+body {
+ background-color: #333;
+ color: white;
+ font-family: Arial;
+}
+
+.container {
+  text-align: center;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 350px;
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  font-family: Arial;
+  margin: 10px;
+}
+
+button:active {
+  opacity: 0.8;
+}
+
+#increment-btn {
+  background-color: green
+}
+ #save-btn {
+   background-color: orange
+ }
